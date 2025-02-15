@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>色いろイーツ</title>
+  </head>
+  <body>
+    <main>
+      <div class="deco-top" style="display: none">
+        <img src="./img/deco-top.png" alt="上部デコレーション" />
+      </div>
+      <div class="deco-bottom" style="display: none">
+        <img src="./img/deco-bottom.png" alt="下部デコレーション" />
+      </div>
+      <div class="deco-left" style="display: none">
+        <img src="./img/deco-leftVeggies.png" alt="左側デコレーション野菜" />
+      </div>
+      <div class="deco-right" style="display: none">
+        <img src="./img/deco-rightVeggies.png" alt="右側デコレーション野菜" />
+      </div>
+      <!-- stage4以後のタイトル -->
+      <div class="ttl" style="display: none">
+        <img class="ttl-img" src="./img/" alt="" /><span
+          class="ttl-text"
+        ></span>
+      </div>
+      <!-- stage1 -->
+      <div class="logo" style="display: none">
+        <img class="logo-img" src="./img/Logo.png" alt="色いろイーツ" />
+        <button class="start">スタート</button>
+      </div>
+      <!-- stage2 -->
+      <div class="camera" style="display: none">
+        <div class="deco-camtop">
+          <img src="./img/deco-camtop.png" alt="カメラ上部デコレーション" />
+        </div>
+        <video id="video"></video>
+        <!-- アニメの時に上に置くマスク -->
+        <div class="video-none"></div>
+        <img id="photo" />
+        <div class="camera-btn">
+          <img src="./img/camera.png" alt="撮影する" />
+        </div>
+      </div>
+      <!-- stage3 -->
+      <div class="loading" style="display: none">
+        <img src="./img/loading-tomato.png" alt="トマト" />
+        <img src="./img/loading-cabbage.png" alt="キャベツ" />
+        <img src="./img/loading-broccoli.png" alt="ブロッコリー" />
+        <img src="./img/loading-corn.png" alt="コーン" />
+      </div>
+      <!-- stage4 -->
+      <div class="showfood" style="display: none">
+        <img class="showfood-img" />
+        <p class="showfood-name">ここは食べ物の名前</p>
+        <p class="showfood-description">
+          ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ物の紹介ここは食べ
+        </p>
+      </div>
+      <!-- stage5 -->
+      <div class="shownutri" style="display: none">
+        <div class="shownutri-show">
+          <div class="shownutri-left">
+            <img class="shownutri-img" src="" />
+            <p class="shownutri-name">名前です</p>
+          </div>
+          <div class="shownutri-right">
+            <img
+              class="shownutri-graph"
+              src="./img/graphshow.png"
+              alt="栄養のグラフ"
+            />
+          </div>
+        </div>
+        <button class="next-btn">次へ</button>
+      </div>
+      <!-- stage6 -->
+      <div class="shownum" style="display: none">
+        <div class="shownum-show">
+          <div class="shownum-left">
+            <img class="shownum-img" src="" />
+            <p class="shownum-name">名前です</p>
+          </div>
+          <div class="shownum-right">
+            <canvas id="shownum-chart" width="800" height="800"></canvas>
+          </div>
+        </div>
+        <button class="next-btn">次へ</button>
+      </div>
+      <!-- stage7 -->
+      <div class="showmenu" style="display: none">
+        <button class="next-btn">次へ</button>
+      </div>
+      <!-- stage8 -->
+      <div class="last" style="display: none">
+        <p class="last-top">食事をするときに<br />大切にしてほしいこと：</p>
+        <ul class="last-text">
+          <li>いただきます!</li>
+          <li>よく噛んで食べる</li>
+          <li>楽しく食べる</li>
+          <li>ごちそうさまです！</li>
+        </ul>
+        <button class="start last-btn">もう一回作る</button>
+      </div>
+    </main>
+  </body>
+</html>

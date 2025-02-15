@@ -1,0 +1,865 @@
+{
+  "fooddata": [
+    {
+      "id": "0",
+      "food": "あんもち雑煮",
+      "image": "0.png",
+      "nutrition": {
+        "carbohydrates": "119",
+        "protein": "4",
+        "fat": "2.9",
+        "minerals": "78.5",
+        "vitamin": "49.05"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "1",
+      "food": "いもたこ",
+      "image": "1.png",
+      "nutrition": {
+        "carbohydrates": "147",
+        "protein": "8.2",
+        "fat": "7.7",
+        "minerals": "183.4",
+        "vitamin": "82.13"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "2",
+      "food": "いりこめし",
+      "image": "2.png",
+      "nutrition": {
+        "carbohydrates": "282",
+        "protein": "8.2",
+        "fat": "5.3",
+        "minerals": "152.8",
+        "vitamin": "51.33"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "3",
+      "food": "お麩とわかめのすまし汁",
+      "image": "3.png",
+      "nutrition": {
+        "carbohydrates": "21",
+        "protein": "1.2",
+        "fat": "0",
+        "minerals": "21.2",
+        "vitamin": "8.01"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "4",
+      "food": "かきたま汁",
+      "image": "4.png",
+      "nutrition": {
+        "carbohydrates": "70",
+        "protein": "5",
+        "fat": "3.2",
+        "minerals": "51.4",
+        "vitamin": "107.14"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "5",
+      "food": "かぼちゃの鹿の子揚げ",
+      "image": "5.png",
+      "nutrition": {
+        "carbohydrates": "136",
+        "protein": "1.7",
+        "fat": "8.3",
+        "minerals": "24.6",
+        "vitamin": "242.09"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "6",
+      "food": "きすの青しそ揚げ",
+      "image": "6.png",
+      "nutrition": {
+        "carbohydrates": "117",
+        "protein": "6",
+        "fat": "7.2",
+        "minerals": "35.1",
+        "vitamin": "8.13"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "7",
+      "food": "キャベツのごまあえ",
+      "image": "7.png",
+      "nutrition": {
+        "carbohydrates": "28",
+        "protein": "1.2",
+        "fat": "1.2",
+        "minerals": "56.5",
+        "vitamin": "54.06"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "8",
+      "food": "キャベツの昆布あえ",
+      "image": "8.png",
+      "nutrition": {
+        "carbohydrates": "14",
+        "protein": "0.9",
+        "fat": "0.1",
+        "minerals": "34.4",
+        "vitamin": "58.04"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "9",
+      "food": "ごはん",
+      "image": "9.png",
+      "nutrition": {
+        "carbohydrates": "274",
+        "protein": "4.9",
+        "fat": "0.7",
+        "minerals": "23.7",
+        "vitamin": "0.38"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "10",
+      "food": "こんぴっぴあんかけうどん",
+      "image": "10.png",
+      "nutrition": {
+        "carbohydrates": "314",
+        "protein": "8.2",
+        "fat": "6",
+        "minerals": "48",
+        "vitamin": "97.18"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "11",
+      "food": "さつまいものあげもん",
+      "image": "11.png",
+      "nutrition": {
+        "carbohydrates": "142",
+        "protein": "0.8",
+        "fat": "8.2",
+        "minerals": "34.4",
+        "vitamin": "13.11"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "12",
+      "food": "さわらの和風あんかけ",
+      "image": "12.png",
+      "nutrition": {
+        "carbohydrates": "99",
+        "protein": "10.2",
+        "fat": "4.9",
+        "minerals": "24.9",
+        "vitamin": "6.23"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "13",
+      "food": "しっぽくうどん",
+      "image": "13.png",
+      "nutrition": {
+        "carbohydrates": "294",
+        "protein": "12",
+        "fat": "6.6",
+        "minerals": "95.8",
+        "vitamin": "68.3"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "14",
+      "food": "しょうゆ豆",
+      "image": "14.png",
+      "nutrition": {
+        "carbohydrates": "32",
+        "protein": "1.5",
+        "fat": "0.1",
+        "minerals": "16.1",
+        "vitamin": "0"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "15",
+      "food": "ダイシモチごはん",
+      "image": "15.png",
+      "nutrition": {
+        "carbohydrates": "253",
+        "protein": "4.7",
+        "fat": "0.8",
+        "minerals": "29.6",
+        "vitamin": "0.32"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "16",
+      "food": "たこめし",
+      "image": "16.png",
+      "nutrition": {
+        "carbohydrates": "257",
+        "protein": "6.7",
+        "fat": "1.6",
+        "minerals": "59.3",
+        "vitamin": "53.33"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "17",
+      "food": "タンタン風うどん",
+      "image": "17.png",
+      "nutrition": {
+        "carbohydrates": "315",
+        "protein": "13.2",
+        "fat": "8.2",
+        "minerals": "130.7",
+        "vitamin": "107.21"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "18",
+      "food": "ちくわの磯辺揚げ",
+      "image": "18.png",
+      "nutrition": {
+        "carbohydrates": "126",
+        "protein": "4.5",
+        "fat": "7.2",
+        "minerals": "31.5",
+        "vitamin": "6.12"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "19",
+      "food": "ちくわの天ぷら",
+      "image": "19.png",
+      "nutrition": {
+        "carbohydrates": "139",
+        "protein": "5.1",
+        "fat": "8.2",
+        "minerals": "27.3",
+        "vitamin": "1.12"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "20",
+      "food": "ちしゃもみ",
+      "image": "20.png",
+      "nutrition": {
+        "carbohydrates": "57",
+        "protein": "2.8",
+        "fat": "2.7",
+        "minerals": "90.5",
+        "vitamin": "49.08"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "21",
+      "food": "ツナと野菜のからしあえ",
+      "image": "21.png",
+      "nutrition": {
+        "carbohydrates": "38",
+        "protein": "2.8",
+        "fat": "1.6",
+        "minerals": "25.2",
+        "vitamin": "87.04"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "22",
+      "food": "ツナと野菜のからしごまあえ",
+      "image": "22.png",
+      "nutrition": {
+        "carbohydrates": "49",
+        "protein": "3.2",
+        "fat": "2.4",
+        "minerals": "56.5",
+        "vitamin": "88.05"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "23",
+      "food": "はまちの照り焼き",
+      "image": "23.png",
+      "nutrition": {
+        "carbohydrates": "101",
+        "protein": "8.5",
+        "fat": "6.9",
+        "minerals": "22.7",
+        "vitamin": "15.14"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "24",
+      "food": "ふしめん汁",
+      "image": "24.png",
+      "nutrition": {
+        "carbohydrates": "32",
+        "protein": "1.6",
+        "fat": "0",
+        "minerals": "24.3",
+        "vitamin": "83.04"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "25",
+      "food": "まんばのけんちゃん",
+      "image": "25.png",
+      "nutrition": {
+        "carbohydrates": "56",
+        "protein": "3.2",
+        "fat": "3.5",
+        "minerals": "78.1",
+        "vitamin": "125.08"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "26",
+      "food": "みかん",
+      "image": "26.png",
+      "nutrition": {
+        "carbohydrates": "39",
+        "protein": "0.6",
+        "fat": "0.1",
+        "minerals": "26.3",
+        "vitamin": "93.1"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "27",
+      "food": "ミニトマト",
+      "image": "27.png",
+      "nutrition": {
+        "carbohydrates": "5",
+        "protein": "0.2",
+        "fat": "0",
+        "minerals": "4.1",
+        "vitamin": "17.02"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "28",
+      "food": "ミニトマト（小4～2個）",
+      "image": "28.png",
+      "nutrition": {
+        "carbohydrates": "9",
+        "protein": "0.3",
+        "fat": "0",
+        "minerals": "8.2",
+        "vitamin": "34.04"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "29",
+      "food": "もやしのしそあえ",
+      "image": "29.png",
+      "nutrition": {
+        "carbohydrates": "13",
+        "protein": "0.8",
+        "fat": "0",
+        "minerals": "22.3",
+        "vitamin": "87.06"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "30",
+      "food": "夏野菜のみそ汁",
+      "image": "30.png",
+      "nutrition": {
+        "carbohydrates": "52",
+        "protein": "1.9",
+        "fat": "0.6",
+        "minerals": "44.9",
+        "vitamin": "101.08"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "31",
+      "food": "牛乳",
+      "image": "31.png",
+      "nutrition": {
+        "carbohydrates": "126",
+        "protein": "6.8",
+        "fat": "7.8",
+        "minerals": "248.8",
+        "vitamin": "80.39"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "32",
+      "food": "金時かき揚げ",
+      "image": "32.png",
+      "nutrition": {
+        "carbohydrates": "208",
+        "protein": "1",
+        "fat": "18.9",
+        "minerals": "6",
+        "vitamin": "37.01"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "33",
+      "food": "金時にんじんのサラダ",
+      "image": "33.png",
+      "nutrition": {
+        "carbohydrates": "36",
+        "protein": "1",
+        "fat": "1.3",
+        "minerals": "30.4",
+        "vitamin": "109.05"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "34",
+      "food": "鶏肉のにんにく焼き",
+      "image": "34.png",
+      "nutrition": {
+        "carbohydrates": "77",
+        "protein": "6.6",
+        "fat": "5.7",
+        "minerals": "10.8",
+        "vitamin": "17.1"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "35",
+      "food": "厚揚げとじゃがいものそぼろ煮",
+      "image": "35.png",
+      "nutrition": {
+        "carbohydrates": "172",
+        "protein": "11",
+        "fat": "7.3",
+        "minerals": "156.9",
+        "vitamin": "96.28"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "36",
+      "food": "厚揚げのしょうがだれかけ",
+      "image": "36.png",
+      "nutrition": {
+        "carbohydrates": "141",
+        "protein": "9.4",
+        "fat": "8.6",
+        "minerals": "225.8",
+        "vitamin": "0.07"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "37",
+      "food": "厚揚げの肉みそかけ",
+      "image": "37.png",
+      "nutrition": {
+        "carbohydrates": "167",
+        "protein": "11.6",
+        "fat": "10.1",
+        "minerals": "235.1",
+        "vitamin": "4.1"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "38",
+      "food": "香緑",
+      "image": "38.png",
+      "nutrition": {
+        "carbohydrates": "20",
+        "protein": "0.4",
+        "fat": "0.1",
+        "minerals": "16.1",
+        "vitamin": "30.01"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "39",
+      "food": "祭りちらしずし",
+      "image": "39.png",
+      "nutrition": {
+        "carbohydrates": "300",
+        "protein": "5.6",
+        "fat": "2.7",
+        "minerals": "69",
+        "vitamin": "31.32"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "40",
+      "food": "菜花のごまドレッシングあえ",
+      "image": "40.png",
+      "nutrition": {
+        "carbohydrates": "55",
+        "protein": "2.3",
+        "fat": "3",
+        "minerals": "61.7",
+        "vitamin": "75.13"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "41",
+      "food": "山菜うどん",
+      "image": "41.png",
+      "nutrition": {
+        "carbohydrates": "325",
+        "protein": "9.5",
+        "fat": "5.2",
+        "minerals": "76.6",
+        "vitamin": "84.25"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "42",
+      "food": "小あじの三杯",
+      "image": "42.png",
+      "nutrition": {
+        "carbohydrates": "127",
+        "protein": "7",
+        "fat": "8.2",
+        "minerals": "26.4",
+        "vitamin": "8.11"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "43",
+      "food": "小松菜のごまあえ",
+      "image": "43.png",
+      "nutrition": {
+        "carbohydrates": "26",
+        "protein": "1.3",
+        "fat": "1.2",
+        "minerals": "76",
+        "vitamin": "94.09"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "44",
+      "food": "食べて菜の磯香あえ",
+      "image": "44.png",
+      "nutrition": {
+        "carbohydrates": "20",
+        "protein": "1.3",
+        "fat": "0.7",
+        "minerals": "57.7",
+        "vitamin": "98.08"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "45",
+      "food": "切り干し大根の酢の物",
+      "image": "45.png",
+      "nutrition": {
+        "carbohydrates": "34",
+        "protein": "0.8",
+        "fat": "0",
+        "minerals": "64.6",
+        "vitamin": "105.07"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "46",
+      "food": "打ち込み汁",
+      "image": "46.png",
+      "nutrition": {
+        "carbohydrates": "72",
+        "protein": "2.4",
+        "fat": "0.5",
+        "minerals": "47.9",
+        "vitamin": "44.06"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "47",
+      "food": "大型コッペパン",
+      "image": "47.png",
+      "nutrition": {
+        "carbohydrates": "248",
+        "protein": "7.9",
+        "fat": "4",
+        "minerals": "49.3",
+        "vitamin": "0.71"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "48",
+      "food": "大師汁",
+      "image": "48.png",
+      "nutrition": {
+        "carbohydrates": "76",
+        "protein": "3.4",
+        "fat": "2.4",
+        "minerals": "87.1",
+        "vitamin": "53.08"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "49",
+      "food": "筑前煮",
+      "image": "49.png",
+      "nutrition": {
+        "carbohydrates": "168",
+        "protein": "12.5",
+        "fat": "6.8",
+        "minerals": "147.2",
+        "vitamin": "119.17"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "50",
+      "food": "湯葉入りすまし汁",
+      "image": "50.png",
+      "nutrition": {
+        "carbohydrates": "44",
+        "protein": "3.1",
+        "fat": "0.9",
+        "minerals": "43.8",
+        "vitamin": "8.02"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "51",
+      "food": "年明け八菜うどん",
+      "image": "51.png",
+      "nutrition": {
+        "carbohydrates": "277",
+        "protein": "11",
+        "fat": "4.4",
+        "minerals": "61.3",
+        "vitamin": "42.27"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "52",
+      "food": "白菜のクリームシチュー",
+      "image": "52.png",
+      "nutrition": {
+        "carbohydrates": "169",
+        "protein": "8.3",
+        "fat": "9.9",
+        "minerals": "101.6",
+        "vitamin": "121.16"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "53",
+      "food": "麦ごはん",
+      "image": "53.png",
+      "nutrition": {
+        "carbohydrates": "272",
+        "protein": "5",
+        "fat": "0.8",
+        "minerals": "27.8",
+        "vitamin": "0.52"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "54",
+      "food": "半夏のだんご",
+      "image": "54.png",
+      "nutrition": {
+        "carbohydrates": "101",
+        "protein": "2.8",
+        "fat": "0.3",
+        "minerals": "24",
+        "vitamin": "0.06"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "55",
+      "food": "野菜のアーモンドあえ",
+      "image": "55.png",
+      "nutrition": {
+        "carbohydrates": "46",
+        "protein": "1.7",
+        "fat": "2.8",
+        "minerals": "51.6",
+        "vitamin": "17.11"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "56",
+      "food": "野菜のごまあえ",
+      "image": "56.png",
+      "nutrition": {
+        "carbohydrates": "27",
+        "protein": "1.3",
+        "fat": "1.1",
+        "minerals": "69.6",
+        "vitamin": "93.07"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "57",
+      "food": "野菜のすだちあえ",
+      "image": "57.png",
+      "nutrition": {
+        "carbohydrates": "25",
+        "protein": "0.7",
+        "fat": "1.1",
+        "minerals": "23.3",
+        "vitamin": "64.04"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "58",
+      "food": "野菜の昆布あえ",
+      "image": "58.png",
+      "nutrition": {
+        "carbohydrates": "15",
+        "protein": "0.9",
+        "fat": "0",
+        "minerals": "34.3",
+        "vitamin": "57.04"
+      },
+      "description": "",
+      "time": ""
+    },
+    {
+      "id": "59",
+      "food": "和三盆糖",
+      "image": "59.png",
+      "nutrition": {
+        "carbohydrates": "8",
+        "protein": "0",
+        "fat": "0",
+        "minerals": "1",
+        "vitamin": "0"
+      },
+      "description": "",
+      "time": ""
+    }
+  ],
+  "menu": [
+    { "id": 0, "foods": [15, 31, 37, 8, 24] },
+    { "id": 1, "foods": [41, 31, 5, 7] },
+    { "id": 2, "foods": [10, 31, 6, 57] },
+    { "id": 3, "foods": [15, 31, 42, 28, 48] },
+    { "id": 4, "foods": [15, 31, 35, 29, 54] },
+    { "id": 5, "foods": [16, 31, 36, 45, 30] },
+    { "id": 6, "foods": [39, 31, 11, 56, 50] },
+    { "id": 7, "foods": [17, 31, 19, 21] },
+    { "id": 8, "foods": [15, 31, 49, 44, 14] },
+    { "id": 9, "foods": [9, 31, 1, 58, 26] },
+    { "id": 10, "foods": [13, 31, 5, 22] },
+    { "id": 11, "foods": [47, 31, 52, 33, 38] },
+    { "id": 12, "foods": [53, 31, 12, 43, 0] },
+    { "id": 13, "foods": [51, 31, 32, 55] },
+    { "id": 14, "foods": [9, 31, 23, 25, 27, 46] },
+    { "id": 15, "foods": [2, 31, 18, 40, 3, 59] },
+    { "id": 16, "foods": [15, 31, 34, 20, 4] }
+  ],
+  "always": [31, 15],
+  "twice": [9, 5]
+}

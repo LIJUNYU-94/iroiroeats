@@ -1,0 +1,332 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Megrim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Maru+Gothic&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@keyframes jump {
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+html,
+body,
+main {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  background-color: #f5cb94;
+  background-image: url("../img/bg-texture.png");
+  background-size: 100%;
+  background-blend-mode: overlay;
+  background-repeat: repeat;
+  font-family: "Zen Maru Gothic", serif;
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+/*
+**ここからは共通パーツ
+*/
+main {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+main img {
+  width: 100%;
+}
+.ttl {
+  position: absolute;
+  top: 105px;
+  left: 5%;
+  color: var(--black, #000);
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s transform ease-in-out;
+}
+.ttl-img {
+  width: 72px;
+  position: relative;
+  top: 14px;
+  margin-right: 5px;
+}
+.next-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 93px;
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+  width: 199px;
+  height: 90px;
+  border-radius: 100px;
+  background: var(--blue, #88c0c4);
+  border: none;
+  padding-bottom: 4px;
+}
+/*
+**ここからはデコレーション
+*/
+
+.deco-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  transition: 1s transform ease-in-out;
+}
+.deco-bottom {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 1s transform ease-in-out;
+  z-index: 2;
+}
+.deco-left {
+  width: 31.3%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 450px;
+  transition: 1s transform ease-in-out;
+}
+.deco-right {
+  width: 32%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 460px;
+  transition: 1s transform ease-in-out;
+}
+
+/*
+**最初の画面
+*/
+.logo {
+  width: 72.9%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.start {
+  display: flex;
+  padding: 32px 63px 31px 63px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  border: 5px dashed var(--red, #de5b46);
+  color: var(--red, #de5b46);
+  font-family: "Zen Maru Gothic";
+  font-size: 34px;
+  font-weight: 700;
+  background: inherit;
+  margin: 0 auto;
+  transition: 1.5s transform ease-in-out;
+  transform-origin: center;
+}
+.logo-img {
+  transform-origin: center;
+  transition: 1.5s transform ease-in-out;
+}
+/*
+**カメラの画面
+*/
+.camera {
+  position: relative;
+  height: 75vh;
+  aspect-ratio: 4/3;
+  margin: 0 auto;
+  background-color: white;
+  transform-origin: center;
+  transition: 1s all ease-in;
+  text-align: center;
+}
+#video {
+  margin: 0 auto;
+  height: 100%;
+}
+#photo {
+  z-index: -1;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  margin: 0 auto;
+  height: 100%;
+  aspect-ratio: 4/3;
+}
+.video-none {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  height: 100%;
+  aspect-ratio: 4/3;
+  background-color: black;
+  transition: 1s transform ease-in;
+  opacity: 1;
+  z-index: 2;
+  transform-origin: center;
+}
+.deco-camtop {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+.camera-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 4.2vh;
+  width: 95px;
+  z-index: 3;
+}
+/*
+**loadingの画面
+*/
+.loading {
+  width: 728px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.loading img {
+  width: 148px;
+}
+.active {
+  animation: jump 0.5s;
+}
+/*
+**showfoodの画面
+*/
+.showfood {
+  text-align: center;
+  transition: 0.5s all ease-in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.showfood-img {
+  width: min(30%, 320px);
+  background-color: rgba(240, 248, 255, 0.7);
+}
+.showfood-name {
+  color: var(--red, #de5b46);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.showfood-description {
+  color: var(--black, #000);
+  font-size: 36px;
+  font-weight: 700;
+  width: 90%;
+  margin: 0 auto;
+}
+/*
+**shownutriの画面とshownumの画面
+*/
+.shownutri,
+.shownum,
+.showmenu {
+  transition: 0.5s all ease-in;
+}
+.shownum-show {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+.shownutri-show {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 400px auto;
+  gap: 10%;
+}
+.shownutri-right {
+  text-align: center;
+}
+.shownutri-right img {
+  width: 700px;
+}
+.shownum-right {
+  display: flex;
+  justify-content: end;
+}
+@media screen and (max-height: 800px) {
+  .shownutri-right img {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .shownum-show,
+  .shownutri-show {
+    width: 75%;
+    gap: 0%;
+  }
+  .shownutri-right {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .shownum-right {
+    display: flex;
+    justify-content: start;
+  }
+}
+
+.shownum-left,
+.shownutri-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.shownum-name,
+.shownutri-name {
+  color: var(--red, #de5b46);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/*
+**lastの画面
+*/
+.last {
+  transition: 0.6s transform ease-out;
+  transform-origin: center;
+}
+.last-top {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.last-text {
+  width: 506px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 70px;
+}
+.last-text li {
+  width: 392px;
+  margin: 0 auto;
+  position: relative;
+  left: 48px;
+}
